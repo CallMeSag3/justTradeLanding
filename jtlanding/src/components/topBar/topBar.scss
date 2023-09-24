@@ -1,3 +1,77 @@
 .topbar {
     background-color: #FF8310;
+    &__container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-top: 29px;
+    }
+    &__left {
+        margin-left: 42px;
+    }
+    &__center {
+        margin-top: 13px;
+    }
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-item {
+            margin-right: 46px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        &-link {
+            color: #41403C;
+            font-size: 20px;
+            font-family: "Red Hat Text", sans-serif;
+            font-weight: 500;
+            line-height: 30px;
+            text-decoration: none;
+            transition: all 0.5s ease;
+            &:hover {
+                color: #fff;
+                border-bottom: 2px solid #fff;
+            }
+        }
+    }
+    &__right {
+        margin-top: 13px;
+        margin-right: 42px;
+        &-list {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &-item {
+            margin-right: 35.5px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        &-img {
+            cursor: pointer;
+            transition: all 0.5s ease;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+        &-button {
+            font-size: 20px;
+            font-family: "Raleway", sans-serif;
+            font-weight: 400;
+            line-height: 30px;
+            color: #fff;
+            border: 1px solid #fff;
+            border-radius: 20px;
+            padding: 5px 27px;
+            background-color: transparent;
+            transition: all 0.5s ease;
+            &:hover {
+                background-color: #fff;
+                color: #FF8310;
+            }
+        }
+    }
 }

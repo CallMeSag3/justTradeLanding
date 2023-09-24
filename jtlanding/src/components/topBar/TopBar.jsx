@@ -15,11 +15,27 @@ const TopBar = () => {
                 </div>
                 <div className="topbar__center">
                     <ul className="topbar__list">
-                        <li className="topbar__list-item">Inicio</li>
-                        <li className="topbar__list-item">Sobre Nosotros</li>
-                        <li className="topbar__list-item">Educacion</li>
-                        <li className="topbar__list-item">Noticias</li>
-                        <li className="topbar__list-item">Just Trade!</li>
+                        <li className="topbar__list-item">
+                            <Link to="/" className="topbar__list-link">
+                                Inicio
+                            </Link>
+                        </li>
+                        <li className="topbar__list-item">
+                            <Link to="/" className="topbar__list-link">
+                                Sobre Nosotros
+                            </Link>
+                        </li>
+                        <li className="topbar__list-item">
+                            <Link to="/" className="topbar__list-link">
+                                Educacion
+                            </Link>
+                        </li>
+                        <li className="topbar__list-item">
+                            <Link to="/" className="topbar__list-link">Noticias</Link>
+                        </li>
+                        <li className="topbar__list-item">
+                            <Link to="/" className="topbar__list-link">Just Trade!</Link>
+                        </li>
                     </ul>
                 </div>
                 <div className="topbar__right">
