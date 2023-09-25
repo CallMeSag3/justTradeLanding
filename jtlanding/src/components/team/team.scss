@@ -1,0 +1,91 @@
+.team {
+    margin-bottom: 51px;
+    position: relative;
+    &__container {
+        padding: 0 150px;
+    }
+    &__textcont {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 35px;
+    }
+    &__title {
+        font-size: 48px;
+        line-height: 140%;
+        max-width: 456px;
+        &-focus {
+            color: #F23802;
+        }
+    }
+    &__text {
+        margin-left: 173px;
+        font-size: 18px;
+        line-height: 196%;
+        color: #939393;
+        max-width: 508px;
+    }
+    &__slider {
+        &-slide {
+            margin-right: 23.36px;
+            &-img {
+                width: 95% !important;
+                height: 326px;
+                opacity: 1;
+                object-fit: cover;
+                background-repeat: no-repeat;
+            }
+            &-info {
+                margin-top: 21.67px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+            }
+            &-textcont {
+                margin-right: 65px;
+            }
+            &-name {
+                font-weight: 600;
+                font-size: 20px;
+                margin-bottom: 5px;
+            }
+            &-role {
+                font-size: 14px;
+                color: #525969;
+            }
+            &-contact {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                &-img {
+                    margin-right: 14.49px;
+                    cursor: pointer;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.slick-dots li button:before {
+    background-color: #d9d9d9;
+    height: 27px !important;
+    width: 27px !important;
+    text-indent: -9999px;
+    overflow:hidden;
+    border-radius: 50%;
+    margin-top: 53px;
+    }
+
+.slick-dots li {
+    &.slick-active button:before {
+        background-color: #F23802;
+    }
+}
+
+.slick-dots li  {
+    margin-right: 22px !important;
+}
