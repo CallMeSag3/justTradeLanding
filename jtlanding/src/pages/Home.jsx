@@ -7,6 +7,9 @@ import Information from "../components/information/Information"
 import Gains from "../components/gains/Gains"
 import Start from "../components/start/Start"
 import Team from "../components/team/Team"
+import Clients from "../components/clients/Clients"
+import Join from "../components/join/Join";
+import Blog from "../components/blog/Blog";
 
 const Home = () => {
     return (
@@ -18,6 +21,9 @@ const Home = () => {
             <Gains/>
             <Start/>
             <Team/>
+            <Clients/>
+            <Join/>
+            <Blog/>
         </div>
     )
 }
